@@ -8,6 +8,7 @@ var started = false;
 
 $(document).keydown(function(){
     if(!started){
+        alert("Instructions: You need to remember the sequence of the colour has been shown and press in the same sequence");
         $("h1").text("level "+level);
         nextSequence();
         started = true;
